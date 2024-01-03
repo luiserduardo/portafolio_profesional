@@ -1,0 +1,56 @@
+/* by EDU */
+
+table.tabla {
+    font-family: "Courier New";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse: separate;
+    margin: auto;
+}
+
+.tabla th {
+    padding: 15px;
+    color: white;
+    text-shadow: 1px 1px 1px slategray;
+    border: 1px solid slateblue;
+    border-bottom: 3px solid slateblue;
+    background-color: slateblue;
+    background: -moz-linear-gradient(top, blueviolet, grey);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(blueviolet), to(grey));
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.table thead th:empty {
+    background: transparent;
+    border: none;
+}
+
+.table tfoot td {
+    color: springgreen;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px 0px;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.tabla tbody td {
+    padding: 10px;
+    text-align: center;
+    background-color: cadetblue;
+    border: 2px solid cadetblue;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: slategray;
+    text-shadow: 1px 1px 1px white;
+}
+
+.tabla tbody span.check::before {
+    content: url(check.png);
+}

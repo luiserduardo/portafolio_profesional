@@ -1,0 +1,59 @@
+body {
+    background-color: slategray;
+    font-family: sans-serif;
+}
+
+.contenedor {
+    background-color: white;
+    box-sizing: border-box;
+    margin: 10px auto;
+    padding: 3%;
+    height: 400px;
+    width: 90%;
+}
+
+.boton {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    background-color: green;
+    line-height: 2.5;
+    padding: 0 1 .5em;
+    text-decoration: none;
+}
+
+
+.rojo {
+    background-color: red;
+}
+
+.rojo:hover{ background-color: #c62828;}
+
+.morado{
+    background-color: #6A1B9A;
+}
+
+.azul{
+    background-color: #283593 ;
+}
+
+
+.celeste{
+    background-color: #4DD0E1;
+}
+
+.verde{
+    background-color: #2E7D32;
+}
+
+.naranja{
+    background-color: #FFD600;
+}
+
+.rosa{
+    background-color: #FF1744;
+}
+
+.redondeado{
+    border-radius: 1.25em;
+}

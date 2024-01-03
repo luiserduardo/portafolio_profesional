@@ -1,0 +1,47 @@
+body{
+    background-color: slategrey;
+}
+#contenedor{
+    width: 90%;
+    max-width: 1100px;
+    min-width: 700px;
+    margin: 50px auto;
+}
+#columnas{
+    column-count: 4;
+    column-gap: 10px;
+}
+.pin{
+    display: inline-block;
+    background: slategray;
+    border: 2px solid white;
+    box-shadow: 0 1px 2px black;
+    margin: 0 2px 15px;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    -o-column-break-inside: avoid;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+.pin p{
+    font: 0.8em Arial, san-serif;
+    color:darkslategrey;
+    margin: 0;
+    text-align: justify;
+    color: #424242;
+}
+.pin h2{
+    font-size: 1em;
+    margin: 0.5em 0;
+    color: darkred;
+}
+.pin img{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    opacity: 0.7;
+}
+.pin img:hover{
+    opacity: 1;
+}

@@ -1,0 +1,40 @@
+body{
+    background-color: slateblue;
+    color: antiquewhite ;
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    border:solid;
+    border-width: 5px;
+    margin: 0px 45px;
+}
+
+div{
+    width: 80%;
+    margin: 45px auto;
+    background-color: cornflowerblue;
+    padding: 3%;
+    color: black;
+    box-sizing: border-box;
+
+}
+
+p{
+    background-color: slateblue;
+    
+}
+
+dl{
+    background-color: slateblue;
+    list-style: square;
+    /* para poner cuadritos usar  */
+}
+
+h2{
+    background-color: slateblue;
+
+}

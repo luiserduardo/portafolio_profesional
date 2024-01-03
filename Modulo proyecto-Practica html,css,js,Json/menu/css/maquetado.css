@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fcfcfc;
+}
+header{
+    width: 100%;
+    height: 130px;
+    background-color: #2c0807;
+}
+#txtPrincipal, #menu, #lema{
+    display: inline-block;
+    margin-top: 13px;
+    color: white;
+}
+#txtPrincipal{
+    margin-left: 70px;
+}
+#txtPrincipal h1{
+    font-family: 'Lora', serif;
+    margin: 0;
+    font-size: 50px;
+}
+#lema{
+    margin-left: 46px;
+    margin-top: 0;
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+}
+#menu{
+    margin-right: 80px;
+    margin-top: 50px;
+    float: right;
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+}
+#menu li a{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+    color:rgb(255, 255, 255);
+    margin: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*slider*/
+.contenedor-slider{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+.slider-izquierdo, .slider-derecho
+{
+    width: 5%;
+}
+.slider-derecho{
+    margin-left: 20px;
+}
+.slider-izquierdo{
+    margin-right:20px ;
+}
+
+.slider-izquierdo img, .slider-derecho img
+{
+   width: 100%;
+
+}
+
+
+.slider-screen img
+{
+    width: 600px;
+    height: 300px;
+}

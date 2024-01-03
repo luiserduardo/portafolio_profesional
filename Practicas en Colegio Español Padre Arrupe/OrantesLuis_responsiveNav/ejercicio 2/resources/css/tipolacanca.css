@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Roboto:wght@100&display=swap');
+
+body {
+    background: slateblue;
+    font-size: 22px;
+    line-height: 32px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: white;
+
+}
+
+h3 a {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: white;
+}
+
+h3 a {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    line-height: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+lable.toggle,
+[ id^=drop] {
+    display: none
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray;
+    overflow: hidden;
+    /* overflox sirve para hacer que el nav cubra todos los elementos que flotan sobre el */
+}
+
+#logo {
+    display: block;
+    padding: 0 30px;
+    float: left;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+nav ul {
+    float: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    margin: 0px;
+    display: inline-block;
+    background-color: rgb(44, 74, 104);
+}
+
+nav a {
+    display: block;
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+    transition: background-color 1s;
+
+}
+
+nav a:hover {
+    background-color: black;
+
+}
+
+@media all and (max-width: 768px) {
+    nav {
+        margin: 0;
+    }
+
+    #logo {
+        display: inline-block;
+        padding: 0 0 0 20px;
+        text-align: center;
+    }
+}
+
+nav ul li {
+    display: block;
+    width: 100%;
+    border-top: 1px solid white;
+}
+
+label.toggle {
+    display: block;
+    background-color: #252522;
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+label.icono {
+    background-color: black;
+    border-left: 1px solid white;
+    display: inline-block;
+    float: right;
+}
+
+.toggle:hover {
+    background-color: black;
+}
+
+.menu {
+    display: none;
+}
+
+[id^=drop]:checked + ul{
+    display: block;
+    width: 100%;
+}

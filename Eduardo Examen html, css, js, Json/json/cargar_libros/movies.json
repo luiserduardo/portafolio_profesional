@@ -1,0 +1,117 @@
+[
+    {
+        "titulo": "Ted",
+        "anio": 2012,
+        "genero": "Comedia,Fantasía",
+        "director": "Seth MAcFarlane",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/d/d4/Ted_%28film%29.png",
+        "sinop": "Ted es conocida por su estilo de comedia irreverente y a menudo provocadora, que ha sido una marca distintiva del director Seth MacFarlane. La película combina elementos de humor obsceno con una historia sentimental y un elenco talentoso que incluye a Mark Wahlberg, Mila Kunis y Seth MacFarlane como la voz de Ted.",
+        "id": 1
+    },
+    {
+        "titulo": "El padrino",
+        "anio": 1972,
+        "genero": "Drama",
+        "director": "Francis Ford Coppola",
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+        "sinop": "EL padrino es un clásico del cine dirigido por Francis Ford Coppola. Ambientada en la década de 1940, la película sigue la vida de la poderosa familia mafiosa Corleone, centrándose en el ascenso al poder de Michael Corleone (interpretado por Al Pacino) y las complejas dinámicas familiares y lealtades en el mundo del crimen organizado.",
+        "id": 2
+    },
+    {
+        "titulo": "Titanic",
+        "anio": 1997,
+        "genero": "Drama, Romance",
+        "director": "James Cameron",
+        "poster": "https://m.media-amazon.com/images/I/91WlTjCgu4L.jpg",
+        "sinop": "Titanic es una epopeya romántica dirigida por James Cameron que narra la historia del trágico hundimiento del famoso transatlántico. Ambientada en 1912, la película sigue el romance prohibido entre Rose (interpretada por Kate Winslet), una joven de clase alta, y Jack (interpretado por Leonardo DiCaprio), un artista bohemio, mientras enfrentan el desastre del Titanic.",
+        "id": 3
+    },
+    {
+        "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+        "anio": 2001,
+        "genero": "Fantasía, Aventura",
+        "director": "Peter Jackson",
+        "sinop": "Basada en la obra maestra de J.R.R. Tolkien, El Señor de los Anillos La Comunidad del Anillo sigue a Frodo Baggins interpretado por Elijah Wood mientras se embarca en una peligrosa misión para destruir un anillo mágico que podría sumir a la Tierra Media en la oscuridad. Dirigida por Peter Jackson, la película presenta un vasto mundo de fantasía, criaturas míticas y épicas batallas.",
+        "id": 4,
+        "poster": "https://m.media-amazon.com/images/I/51cw3aOJmOL._AC_.jpg"
+    },
+    {
+        "titulo": "El Caballero de la Noche",
+        "anio": 2008,
+        "genero": "Acción, Drama, Crimen",
+        "director": "Christopher Nolan",
+        "sinop": "El Caballero de la Noche es la segunda entrega de la trilogía de Batman dirigida por Christopher Nolan. Con Christian Bale como Batman y Heath Ledger como el Joker la película presenta un enfrentamiento intenso entre el Caballero Oscuro y uno de los villanos más icónicos de todos los tiempos. La trama explor",
+        "id": 5,
+        "poster": "https://www.themoviedb.org/t/p/original/pi6mwFCtTDIAHOHWan4AQ36Tdh2.jpg"
+    },
+    {
+        "titulo": "Pulp Fiction",
+        "anio": 1994,
+        "genero": "Crimen, Drama",
+        "director": "Quentin Tarantino",
+        "sinop": "Dirigida por Quentin Tarantino, Pulp Fiction es una película no lineal que entrelaza múltiples historias en el oscuro y violento submundo del crimen. Con un elenco estelar que incluye a John Travolta, Uma Thurman y Samuel L. Jackson, la película es conocida por su diálogo ingenioso, personajes memorables y momentos impactantes.",
+        "id": 6,
+        "poster": "https://www.themoviedb.org/t/p/original/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg"
+    },
+    {
+        "titulo": "Forrest Gump",
+        "anio": 1994,
+        "genero": "Drama, Comedia",
+        "director": "Robert Zemeckis",
+        "sinop": "Forrest Gump sigue la vida de Forrest (interpretado por Tom Hanks), un hombre con discapacidad intelectual que se convierte en testigo y participante de importantes eventos históricos en Estados Unidos. Con su corazón puro y su inocencia, Forrest deja una huella en las vidas de quienes lo rodean. La película es una mezcla de comedia, drama y reflexiones sobre la vida."
+    },
+    {
+        "titulo": "Origen",
+        "anio": 2010,
+        "genero": "Ciencia ficción, Acción",
+        "director": "Christopher Nolan",
+        "sinop": "Origen es un intrigante thriller de ciencia ficción dirigido por Christopher Nolan. La película sigue a Dom Cobb (interpretado por Leonardo DiCaprio), un ladrón especializado en el robo de información valiosa mediante la infiltración en los sueños de las personas. Con una trama compleja y giros sorprendentes, Origen explora la realidad y los límites de la mente humana.",
+        "id": 7, 
+        "poster":"https://m.media-amazon.com/images/I/613ZgTigTpL.jpg"
+    },
+    {
+        "titulo": "Matrix",
+        "anio": 1999,
+        "genero": "Ciencia ficción, Acción",
+        "director": "The Wachowskis Lana Wachowski Lilly Wachowski",
+        "sinop": "Matrix es una película revolucionaria que combina ciencia ficción y acción Dirigida por las hermanas Wachowski la historia sigue a Neo interpretado por Keanu Reeves un programador que descubre que el mundo en el que vive es una simulación de computadora controlada por máquinas. Neo se une a un grupo de rebeldes y se embarca en una lucha para liberar a la humanidad.",
+        "id": 8, 
+        "poster":"https://m.media-amazon.com/images/I/51+zK8q1euL._QL92_SH45_SS200_.jpg"
+    },
+    {
+        "titulo": "c",
+        "anio": 1994,
+        "genero": "Animación, Aventura, Drama",
+        "director": "Roger Allers, Rob Minkoff",
+        "sinop": "El Rey León es un clásico de animación de Disney que sigue las aventuras de Simba, un joven león que lucha por reclamar su lugar como rey de la sabana africana. La película aborda temas de responsabilidad, amistad y aceptación, y presenta canciones inolvidables y personajes entrañables como Timón y Pumba.",
+        "id": 9, 
+        "poster":"https://m.media-amazon.com/images/I/51BUvDT+NYL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "titulo": "Jurassic Park",
+        "anio": 1993,
+        "genero": "Ciencia ficción, Aventura",
+        "director": "Steven Spielberg",
+        "sinop": "Basada en la novela de Michael Crichton, Jurassic Park es una emocionante película de aventuras dirigida por Steven Spielberg. La trama se desarrolla en un parque temático donde los científicos han logrado clonar dinosaurios. Sin embargo, las cosas se salen de control cuando los depredadores escapan y amenazan la vida de los visitantes. Jurassic Park es conocida por sus impresionantes efectos especiales y su capacidad para generar suspenso.",
+        "id": 10,
+        "poster":"https://cdn.shopify.com/s/files/1/0830/9575/products/Jurassic-Park-Editions-poster-florey_2048x.jpg?v=1654518755"
+    },
+    {
+        "titulo": "Interestelar",
+        "anio": 2014,
+        "genero": "Ciencia ficción, Drama",
+        "director": "Christopher Nolan",
+        "sinop": "Interestelar es una película épica dirigida por Christopher Nolan. Ambientada en un futuro donde la Tierra se encuentra al borde del colapso, la historia sigue a un grupo de astronautas liderados por Cooper (interpretado por Matthew McConaughey) en un viaje interestelar en busca de un nuevo hogar para la humanidad. La película combina elementos",
+        "id": 11,
+        "poster":"https://m.media-amazon.com/images/I/71LNVGVpWYL.jpg"
+    },
+    {
+        "titulo":"2012",
+        "anio": 2009,
+        "genero":"Acción, Drama, Crimen",
+        "director":"Francis Ford Coppola",
+        "sinop":"Basada en la obra maestra de J.R.R. Tolkien, El Señor de los Anillos La Comunidad del Anillo sigue a Frodo Baggins interpretado por Elijah Wood mientras se embarca en una peligrosa misión para destruir un anillo mágico que podría sumir a la Tierra Media en la oscuridad. Dirigida por Peter Jackson, la película presenta un vasto mundo de fantasía, criaturas míticas y épicas batallas.",
+        "id":12,
+        "poster":"https://pics.filmaffinity.com/2012-144722286-mmed.jpg"
+    }
+]

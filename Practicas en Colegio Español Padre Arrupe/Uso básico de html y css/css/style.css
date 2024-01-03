@@ -1,0 +1,98 @@
+*{
+    margin: 7px;
+    border-radius: 5%;
+    color: black;
+    text-decoration: solid;
+    
+}
+
+body{
+    background-color: lightpink;
+}
+
+h1{
+text-align: center;
+font-size: 45px;
+letter-spacing: 10px;
+word-spacing: 20px;
+color: whitesmoke;
+text-shadow:  0 0 4px #ccc, 0 -5px 4px salmon, 2px -10px 6px
+darksalmon, -2px -15px 11px gray, 2px -18px 18px tomato;
+}
+
+h2{
+    color: rebeccapurple
+
+}
+/* bloque principal */
+
+#instrucciones, #ingredientes{
+    height: 40%;
+display: inline-block;
+vertical-align: top;
+
+}
+
+
+#instrucciones{
+    width: 63%;
+background-color: slateblue;
+border-style: double;
+}
+
+#ingredientes{
+    width: 32%;
+    background-color: powderblue;
+    padding: 4px;
+    border-style: goove;
+    margin: 10px;
+    color: violet;
+}
+
+section{
+    background-color: violet;
+    padding: 12px;
+}
+
+article{
+    background-color: violet;
+    display: inline-block;
+   height: 200px;
+   vertical-align: top;
+   width: 32%;
+
+
+}
+
+article img{
+    width: 100px;
+    height: 80px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+#otro{
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    color: whitesmoke;
+    text-shadow:  0 0 4px #ccc, 0 -5px 4px salmon, 2px -10px 6px
+    darksalmon, -2px -15px 11px gray, 2px -18px 18px tomato;
+}
+
+#pastel{
+    width:400px;
+    height: 250px;
+}
+
+/* imagenes pequeñas */
+
+button{
+    width:90px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+

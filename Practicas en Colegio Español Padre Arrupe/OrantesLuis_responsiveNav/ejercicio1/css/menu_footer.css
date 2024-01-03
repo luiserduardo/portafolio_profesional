@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px 'PT Sans', sans-serif;
+    color: black;
+}
+
+p,
+ul {
+    margin: 0 0 1.5em;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 1.4em;
+    margin: 0 0 .4em;
+    font-weight: bold;
+}
+
+
+article {
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px 20px 0 20px;
+    margin: 10px 0;
+}
+
+article p {
+    text-align: justify;
+}
+
+header {
+    background: black;
+    padding: 15px 20px;
+    overflow: hidden;
+}
+
+h1.logo a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 22px;
+    float: left;
+    letter-spacing: 0.2em;
+}
+
+section{
+    padding: 10px;
+}
+
+a.ir_menu {
+    float: right;
+    color: white;
+    background: gray;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 2px;
+}
+
+
+
+a.ir_menu:hover,
+a.ir_nav:focus {
+    color: black;
+    background: slategray;
+}
+
+footer #autor {
+    text-align: center;
+    font-size: 14px;
+}
+
+#menu_pie ul {
+    list-style: none;
+    background: black;
+    padding: 5px 0;
+}
+
+#menu_pie li a {
+    display: block;
+    padding: 0 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0 .05em;
+    line-height: 2em;
+    border-bottom: 1px solid slategrey;
+}
+
+
+#menu_pie li:last-child a {
+    border-bottom: none;
+}
+
+#menu_pie li a:hover,
+#menu_pie li a:focus {
+    color: black;
+    background-color: gray;
+}
+
+@media only screen and (min-width: 769px) {
+
+    a.ir_menu {
+        display: none;
+    }
+    section{
+        width: 86%;
+        margin: auto;
+    }
+
+    #menu_pie{
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        background: none;
+    }
+    #menu_pie li{
+        display: inline-block;
+    }
+    #menu_pie li a{
+        border: none;
+        padding: 0 10px;
+        border-style: solid;
+        border-radius: 5px;
+    }
+    #menu_footer li.top{
+        display: none;
+    }
+    footer #autor{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        line-height: 2;
+    }
+    #arriba{
+        display: none;
+        visibility: hidden;
+    }
+}

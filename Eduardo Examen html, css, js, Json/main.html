@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/general.css">
+
+</head>
+
+<body>
+<!-- edu -->
+
+    <!-- favoritos -->
+    <button id="mostrarLibro">Mostrar favoritas</button>
+    <div class="carrito">
+        <h2>Películas favoritos</h2>
+        <ul id="listaLibros"></ul>
+    </div>
+    <!-- buscar -->
+    <input type="text" id="inputBuscar" placeholder="Buscar...">
+
+
+    <!-- cargar productos  -->
+    <main id="contenedor-Libros">
+    </main>
+    <script src="js/cargar_libros/cargar.js"></script>
+    <script src="js/buscar/buscar.js"></script>
+    <script src="js/carrito/carrito.js"></script>
+    
+</body>
+
+</html>

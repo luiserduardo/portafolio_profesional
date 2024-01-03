@@ -1,0 +1,74 @@
+/* todos los elementos */
+
+*{
+    margin: 0;
+    padding: 5px;
+    /* border: solid; */
+    font-family: 'calibri';
+    color: white;
+}
+
+/* cuerpo del sitio */
+
+body{
+    background-image: url('img/fondo.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* caja principal */
+
+
+.bloque{
+    width: 300px;
+    background: #252850 ;
+    padding: 30px;
+    margin: auto;
+    border-radius: 15px;
+    /* border radius se refiere a cuan redondeadas van a ahcer las esquinas */
+    box-shadow: 7px 10px 7px #0a0a0a;
+    /* box shadow crea una sombra de la caja */
+   
+
+  
+
+}
+
+/* Texto caja */
+
+.Ct{
+    /* para centrar */
+    font-size: 20px;
+    font-weight: bold ;
+    text-align: center;
+    
+}
+
+/* Cajas secundarios, insert data */
+
+.caja{
+    width: 80%;
+    background: #252850;
+    padding: 7px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    box-shadow: 6px 9px 6px #0a0a0a;
+}
+
+/* Imagen */
+
+.bloque img{
+    margin-left: 25%;
+    width: 40%;
+    height: 50%
+}
+
+/* boton */
+
+.boton{
+    margin-bottom: 10px;
+    border-radius: 6px;
+    color: white;
+    background-color: #0a0a0a;
+}

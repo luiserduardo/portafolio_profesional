@@ -1,0 +1,61 @@
+/* Estilos para la tabla */
+.table-container {
+    overflow-x: auto;
+    /* Agregar barra de desplazamiento horizontal si la tabla es ancha */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    /* Color de fondo para filas pares */
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* Estilos para hacer la tabla responsive en pantallas pequeñas */
+@media (max-width: 600px) {
+
+    table,
+    th,
+    td {
+        font-size: 12px;
+        /* Reducir el tamaño de fuente */
+    }
+
+    th,
+    td {
+        padding: 4px;
+    }
+
+    /* Ocultar encabezados de columna menos importantes en pantallas pequeñas */
+    th:nth-child(6),
+    th:nth-child(7),
+    th:nth-child(8) {
+        display: none;
+    }
+
+    td:nth-child(6),
+    td:nth-child(7),
+    td:nth-child(8) {
+        display: none;
+    }
+}

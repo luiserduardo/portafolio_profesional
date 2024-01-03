@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/movil.css" media="screen and (max-width:480px)">
+    <link type="text/css" rel="stylesheet" href="css/tablet.css" media="screen and (min-width:481px) and (max-width:768px)">
+    <link type="text/css" rel="stylesheet" href="css/form.css" media="screen and (min-width:769px)">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="txtPrincipal">
+        <h1>Restaurante</h1>
+        <h4 id="lema">Arrupe eats</h4>
+        </div>
+        <ul id="menu">
+          <li><a href="../index/index.html">Inicio</a></li>
+          <li><a href="../sobrenosotros/sobrenosotros.html">¿Quienes somos?</a></li>
+          <li><a href="../menu/menu.html">Menú</a></li>
+          <li><a href="../formulario/form.html">Contacto</a></li>
+        </ul>
+    </header>
+    <div class="container-form">
+        <div class="info-form">
+            <h2>Contáctanos</h2>
+            <p>Estamos aquí para ayudarte en lo que necesites. Si tienes alguna pregunta o comentario, por favor no dudes en ponerte en contacto con nosotros.</p>
+            <a href="#"><i class="fa fa-phone"></i> +503 2365 9793</a>
+            <a href="#"><i class="fa fa-envelope"></i> ColegioEspañol@gmail.com</a>
+            <a href="#"><i class="fa fa-map-marked"></i> El Salvador, Soyapango</a>
+        </div>
+        <form action="#" autocomplete="off" id="formulario">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required class="campo">
+            <input type="email" name="email" placeholder="Tu Email" required class="campo">
+            <textarea name="mensaje" required placeholder="Tu Mensaje..."></textarea>
+            <input type="submit" name="enviar" value="Enviar Mensaje" required class="btn-enviar">
+        </form>
+        <div class="enviado" style="display:none;">
+            <p>Su mensaje ha sido enviado correctamente.</p>
+        </div>
+    </div>
+</body>
+</html>

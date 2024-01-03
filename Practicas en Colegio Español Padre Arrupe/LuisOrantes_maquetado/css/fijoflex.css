@@ -1,0 +1,125 @@
+@import url('https://font.googleapis.com/css?family=Didact+Gothic');
+
+*{
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*Parte 1*/
+
+body{
+    margin: 0px;
+    background-color: slategray;
+    color:black;
+}
+h1{
+    font-family: 1.3em;
+    text-align: center;
+    color:green;
+}
+#superior{
+    padding: 2% 0px;
+}
+#encabezado{
+    width: 80%;
+    min-width: 650px;
+    max-width: 960px;
+}
+#descripcion{
+    width: 37.5%;
+    height: auto;
+}
+#descripcion p{
+    margin: 5%;
+}
+#imgDesc img{
+    float: left;
+    overflow: hidden;
+}
+#superior, #encabezado, #logo{
+    margin: 2% 0px;
+    width: 21%;
+}
+/*contenido ppal*/
+#contenido{
+    width: 80%;
+    margin: 0px auto;
+    min-width: 650px;
+    max-width: 960px;
+}
+/*pie de pag*/
+footer{
+    text-align: center;
+    margin: 0;
+    font-size: 0.9em;
+    line-height: 2;
+    clear: both;
+    background-color: dimgray;
+    color: white;
+    width: 100%;
+}
+.plan{
+    width: 26.7%;
+    padding: 2%;
+    margin: 30px 1.5px;
+}
+#contenido div:nth-child(3n+1){
+    margin-left: 0px;
+}
+#contenido div:nth-child(3n){
+    margin-right: 0px;
+}
+.boton{
+    background-color: slateblue;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-align: center;
+    vertical-align: center;
+    cursor: pointer;
+    transition: background 1s;
+}
+.boton:hover{
+    background: blue;
+}
+.boton a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: block;
+}
+.planes{
+    width: 900px;
+    background-color: white;
+    padding: 10px 30px;
+}
+.planes h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+.planes .objetivo{
+    font-size: left;
+    margin: 20px 0px 5px;
+    padding-bottom: 15px;
+    border-bottom: solid 2px grey;
+    font-weight: bold;
+}
+#galeria .plan p{
+    text-align: center;
+    font-size: 1em;
+}
+#galeria .plan{
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding-bottom: 1px;
+}
+.plan img{
+    width: 100%;
+    height: auto;
+}
+.planes img{
+    width: 100%;
+    border-radius: 15px;
+}

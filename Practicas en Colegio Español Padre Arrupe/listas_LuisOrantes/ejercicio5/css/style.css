@@ -1,0 +1,124 @@
+* {
+    background-color: darkcyan;
+
+}
+
+body {
+    color: white;
+}
+
+#titulo {
+    color: silver;
+    height: 50px;
+    width: 400px;
+    margin: 50px auto 0;
+    /* arriba, a los lados, abajo */
+    padding: 0;
+    background-color: #141414;
+    border: 5px solid darkmagenta;
+    text-align: center;
+}
+
+#cuadro {
+    color: #fff;
+    height: 400px;
+    width: 400px;
+    margin: 50px auto 0;
+    background-color: #141414;
+    border: 5px solid darkmagenta;
+}
+
+ul {
+    background-color: #141414;
+}
+
+li span {
+    color: brown;
+    text-decoration: underline;
+    background-color: #141414;
+}
+
+.ig {
+    font-size: 20px;
+    padding-left: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background: url("../imagenes/ig.png") bottom left no-repeat;
+    list-style-type: none;
+}
+
+
+.tw {
+    font-size: 20px;
+    padding-left: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background: url("../imagenes/tw.png") bottom left no-repeat;
+    list-style-type: none;
+}
+
+.yt {
+    font-size: 20px;
+    padding-left: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background: url("../imagenes/yt.png") bottom left no-repeat;
+    list-style-type: none;
+}
+
+.tk {
+    font-size: 20px;
+    padding-left: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background: url("../imagenes/tk.png") bottom left no-repeat;
+    list-style-type: none;
+}
+
+
+.fb {
+    font-size: 20px;
+    padding-left: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background: url("../imagenes/fb.png") bottom left no-repeat;
+    list-style-type: none;
+}
+
+
+.wp {
+    font-size: 20px;
+    padding-left: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background: url("../imagenes/wp.png") bottom left no-repeat;
+    list-style-type: none;
+}
+
+
+.ik {
+    font-size: 20px;
+    padding-left: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background: url("../imagenes/lk.png") bottom left no-repeat;
+    list-style-type: none;
+}
+
+
+.fb {
+    font-size: 20px;
+    padding-left: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background: url("../imagenes/fb.png") bottom left no-repeat;
+    list-style-type: none;
+}

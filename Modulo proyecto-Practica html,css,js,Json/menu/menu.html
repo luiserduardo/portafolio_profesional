@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/maquetado.css">
+    <link rel="stylesheet" href="css/carta.css">
+
+</head>
+<body onload="generarCartas()">
+    <header>
+        <div id="txtPrincipal">
+            <h1 id="titulo" class="titulo">Restaurante</h1>
+            <h4 id="lema">Arrupe eats</h4>
+            </div>
+            <ul id="menu">
+                <li><a href="../index/index.html">Inicio</a></li>
+                <li><a href="../sobrenosotros/sobrenosotros.html">¿Quienes somos?</a></li>
+                <li><a href="../menu/menu.html">Menú</a></li>
+                <li><a href="../formulario/formulario.html">Contacto</a></li>
+            </ul>
+    
+        <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+    </header>
+   
+    <main id="contenedor-productos">
+
+    </main>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+              
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+        </div>
+    </div>
+
+    <script src="js/stock.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/carta.js"></script>
+
+
+
+
+</body>
+</html>

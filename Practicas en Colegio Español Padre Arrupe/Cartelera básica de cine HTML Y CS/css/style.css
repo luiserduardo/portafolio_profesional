@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=AllertaStencil&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* cuerpo */
+body {
+    font-family: 'Allerta Stencil', sans-serif;
+    text-align: justify;
+}
+
+header {
+    background: rgb(131, 231, 235);
+    height: 45px;
+    /* overflox es una propeidad utilizada para controlar el desobordamiento de los elemnetos */
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 20px;
+    background: rgb(131, 231, 235);
+    height: 50px;
+}
+
+header div,
+footer div {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+h1 {
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    margin: 5px auto;
+    display: block;
+    text-align: center;
+}
+
+section {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+}
+
+section article {
+    font-size: 0.9em;
+    height: 340px;
+    width: 32.33%;
+    float: right;
+    margin: 5px;
+}
+
+article {
+    width: 32.33%;
+    border: 2px dashed #779ecb;
+    padding: 1%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+section article img {
+    height: 180px;
+    max-width: 80%;
+    margin: 5px auto;
+    display: block;
+}
+
+footer div {
+    padding-top: 1rem;
+}
+
+section article:nth-child(1) {
+    background-color: #779ecb;
+    position: static;
+    left: 20px;
+    top: 100px;
+}
+
+section article:nth-child(2) {
+    background-color: #779ecb;
+    position: static;
+    left: 20px;
+    top: 100px;
+}
+
+section article:nth-child(3) {
+    background-color: #779ecb;
+    position: static;
+    left: 20px;
+    top: 100px;
+}
+
+section article:nth-child(4) {
+    background-color: #779ecb;
+    position: static;
+    left: 20px;
+    top: 100px;
+}
+
+section article:nth-child(5) {
+    background-color: #779ecb;
+    position: static;
+    left: 20px;
+    top: 100px;
+}
+
+section article:nth-child(6) {
+    background-color: #779ecb;
+    position: static;
+    left: 20px;
+    top: 100px;
+}

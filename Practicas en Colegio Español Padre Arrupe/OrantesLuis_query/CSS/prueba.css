@@ -1,0 +1,54 @@
+
+*{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+    text-align: justify;
+}
+div{
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+/*Para smartphones*/
+@media screen and (max-width: 480px){
+    html{
+        font-size: 14px;
+    }
+    body{
+        background-color: red;
+    }
+    div{
+        width: 95%;
+    }
+}
+/*Para tablets*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+    html{
+        font-size: 15px;
+    }
+    body{
+        background-color: yellow;
+    }
+    div{
+        width: 85%;
+    }
+}
+/*Para smartphones*/
+@media screen and (min-width: 769px){
+    html{
+        font-size: 16px;
+    }
+    body{
+        background-color: green;
+    }
+    div{
+        width: 75%;
+    }
+}

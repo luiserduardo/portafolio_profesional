@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <title> Ejercicios 2</title>
+        <link rel="stylesheet" href="formulario2.css">
+    </head>
+    <body>
+        <h1> Datos de usuario</h1>
+        <hr size="5">
+        <br><br>
+        Por favor ingresa los datos solitados
+        <form method="post" action="mailto:dsosa@fundacionpadrearrupe.org.sv" enctype="text/plain">
+            <table border="0">
+                <tr>
+                    <td>Nombre:</td>
+                    <td><input type="text" name="nombre" maxlength="20" size="15">
+                    </td>
+                </tr>
+                <tr>
+                    <td> Apellido:</td>
+            
+                    <td><input type="text" name="apellido" maxlenght="20" size="15"></td>
+                </tr>
+                <tr>
+                    <td> Nacionaliadad:</td>
+                    <td><select> 
+                    <option value="salvadoreño"> Salvadoreño</option>
+                    <option value="Español"> Español</option>
+                    <option value="Otro"> Otro</option>
+                </select>
+                </td>
+                </tr>
+                <tr>
+                    <td> Sexo:</td>
+                    <td><input type="radio" name="sexo" value="F"> femenino</td>
+                    <td><input type="radio" name="sexo" value="M"> Masculino</td>
+                </tr>
+    <tr>
+        <td> Dirección:</td>
+        <td><input type="text" maxlength="40"  size="30"  name="direccion"></td>
+    </tr>
+    <tr>
+        <td> Teléfono:</td>
+        <td><input type="text" maxlength="11"  size="10"  name="telefono"></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <input type="image" name="botonenviar" src="img/boton-png" alt="enviar formulario">
+            <input type="reset" name="botoncancel" value="restablecer">
+        </td>
+    </tr>
+            </table>
+        </form>
+    </body>
+</html>

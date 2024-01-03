@@ -1,0 +1,50 @@
+#superior{
+    padding: 2% 0px;
+}
+#encabezado{
+    width: 80%;
+    min-width: 650px;
+    max-width: 960px;
+}
+#descripcion{
+    width: 37.5%;
+    height: auto;
+}
+#descripcion p{
+    margin: 5%;
+}
+#superior, #encabezado, #logo{
+    margin: 2% 0px;
+    width: 21%;
+}
+/*contenido ppal*/
+#contenido{
+    width: 80%;
+    margin: 0px auto;
+    min-width: 650px;
+    max-width: 960px;
+}
+.plan{
+    width: 26.7%;
+    padding: 2%;
+    margin: 30px 1.5px;
+}
+.plan img{
+    width: 100%;
+    height: auto;
+}
+.planes{
+    width: 900px;
+    background-color: white;
+    padding: 10px 30px;
+}
+.planes img{
+    width: 100%;
+    border-radius: 15px;
+}
+#galeria .plan{
+    margin: 30px 1.4% 10px;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}

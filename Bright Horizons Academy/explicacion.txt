@@ -1,0 +1,29 @@
+Proyecto desarrollado en conjunto con 4 desarrolladores (estudiantes) como proyecto de final de año del Bachillerato de Desarrollo de Software en el Colegio Español Padre Arrupe.
+
+Sistema de gestión escolar: Login, apartado de admin (gestión de profesores y estudiantes, asistencia profesores y estudiantes, calendario, notas, pagos, horarios, biblioteca, agregar usuarios, comentarios) y estudiantes (ver calendarios, biblioteca, horarios, aula virtual)
+
+Login- permite a los usuarios ingresar a la página, dependiendo de su nivel de acceso tendrá permisos
+
+Gestión de profesores y estudiantes- agregar nuevos 
+
+Calendario- vista admin- permite ver y agregar nuevos eventos al calendario escolar
+
+Calendario- vista estudiantes- permite ver eventos del calendario
+
+Notas-vista admin- permite agregar notas 
+
+Pagos- permite agregar y ver pagos de colegio
+
+biblioteca- vista admin- permite agregar nuevos libros y ver los prestados
+
+biblioteca-vista estudiantes- permite prestar libros
+
+horarios- vista admin- permite agregar horarios para los distintos grados
+
+notas-vista admin- permite agregar, eliminar y modificar notas, se tiene la opción de poder ver notas individuales, las de un grado o ver el promedio por nivel educativo
+
+aula virtual-admin- permite agregar y eliminar "cursos"
+
+aula virtual-estudiantes- permite ingresar a "cursos"
+
+

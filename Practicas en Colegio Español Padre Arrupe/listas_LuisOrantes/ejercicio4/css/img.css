@@ -1,0 +1,25 @@
+body{
+    background-color: darkcyan;
+    font-size: 2opx;
+
+}
+
+h1{
+    text-transform: uppercase;
+    color: coral;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-image: url("../imagenes/icono.png");
+    /* para poner un estilo  */
+}
+
+div{
+    margin: 60px auto;
+    width: 80%;
+    background-color: slategray;
+    padding: 20px 20%;
+    box-sizing: border-box;
+}
