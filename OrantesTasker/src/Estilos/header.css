@@ -1,0 +1,119 @@
+/* ********************************** */
+/*               HEADER               */
+/* ********************************** */
+
+.contenedor-contenido1 {
+    background-color: #f9f5f0;
+    margin: 0;
+    padding: 1rem 2rem;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.imagen {
+    width: 100px;
+}
+
+.contenido1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+
+.customer-soporte {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.customer-soporte i {
+    font-size: 3.3rem;
+}
+
+.contenido-customer-soporte {
+    display: flex;
+    flex-direction: column;
+}
+
+.contendor-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contendor-logo i {
+    font-size: 3rem;
+}
+
+.contendor-logo h1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.contenedor-usuario {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+/* Estilos para dispositivos pequeños */
+@media screen and (max-width: 768px) {
+    .contenido1 {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .customer-soporte {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .customer-soporte i {
+        font-size: 2.5rem;
+    }
+
+    .contendor-logo {
+        gap: 0.25rem;
+    }
+
+    .contendor-logo i {
+        font-size: 2rem;
+    }
+
+    .contendor-logo h1 a {
+        font-size: 2rem;
+    }
+}
+
+/* Estilos para dispositivos muy pequeños */
+@media screen and (max-width: 576px) {
+    .contenido1 {
+        padding: 1rem;
+    }
+
+    .imagen {
+        width: 80px;
+    }
+
+    .customer-soporte i {
+        font-size: 2rem;
+    }
+
+    .contendor-logo {
+        gap: 0.15rem;
+    }
+
+    .contendor-logo i {
+        font-size: 1.5rem;
+    }
+
+    .contendor-logo h1 a {
+        font-size: 1.5rem;
+    }
+}

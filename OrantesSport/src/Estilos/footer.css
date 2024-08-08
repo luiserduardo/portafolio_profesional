@@ -1,0 +1,27 @@
+/* ********************************** */
+/*               FOOTER               */
+/* ********************************** */
+
+footer {
+    background-color: #c7a17a;
+    padding: 3rem;
+    text-align: center;
+}
+
+footer p {
+    color: #151515;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+/* Estilos para dispositivos pequeños */
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 2rem;
+    }
+
+    footer p {
+        font-size: 1.2rem;
+    }
+}
+

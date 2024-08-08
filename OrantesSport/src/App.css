@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+body {
+	background-color: #f5efe8;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Poppins', sans-serif;
+}
+
+* {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Estilos para el carrito */
+.cart-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;
+  }
+  
+  .cart-title {
+	font-size: 25px;
+	margin-bottom: 1rem;
+  }
+  
+  .cart-message {
+	font-size: 25px;
+	margin-bottom: 1rem;
+  }
+  
+  .cart-total {
+	font-size: 25px;
+	margin-bottom: 1rem;
+  }
+  
+  .cart-button {
+	background-color: var(--primary-color);
+	color: #fff;
+	border: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 0.3rem;
+	cursor: pointer;
+	margin-top: 1rem;
+  }
+  
+  .cart-button:hover {
+	background-color: var(--dark-color);
+  }
+
+  
+
+tbody, thead{
+	font-size: 15px;
+
+}
+  
+th,
+td {
+  font-size: 2rem; /* Aumentamos el tamaño de la letra */
+  padding: 2rem; /* Aumentamos el relleno */
+  margin-right: 2rem; /* Agregamos un margen derecho para separar las columnas */
+}
+
+
+  /* Estilos para las imágenes en miniatura en el carrito */
+.cart-product-img {
+	width: 80px; 
+	height: 80px; 
+	margin-right: 10px; 
+	border-radius: 5px; 
+  }
+  
+  /* Estilos para la información del producto junto a la imagen en miniatura */
+  .product-info {
+	display: flex; 
+	align-items: center;
+  }
+
+  /* Estilos para el formulario de pago */
+.checkout-container {
+	max-width: 600px; /* Ancho máximo del formulario */
+	margin: 0 auto; /* Centrar el formulario horizontalmente */
+	padding: 2rem; /* Espaciado interno */
+  }
+  
+  .checkout-container h2 {
+	font-size: 2rem; /* Tamaño del título */
+	margin-bottom: 2rem; /* Espaciado inferior */
+  }
+  
+  .checkout-container .form-label {
+	font-size: 1.6rem; /* Tamaño de la etiqueta del campo */
+  }
+  
+  .checkout-container .form-control {
+	width: 100%; /* Ancho completo */
+	font-size: 1.6rem; /* Tamaño del texto */
+	padding: 1rem; /* Espaciado interno */
+	margin-bottom: 1.5rem; /* Espaciado inferior */
+	border: 1px solid #ccc; /* Borde */
+	border-radius: 0.5rem; /* Borde redondeado */
+  }
+  
+  .checkout-container .text-danger {
+	color: red; /* Color del texto de error */
+	font-size: 1.4rem; /* Tamaño del texto */
+	margin-top: 0.5rem; /* Espaciado superior */
+  }
+  
+  .checkout-container .btn-success {
+	background-color: #c7a17a; /* Color de fondo del botón */
+	color: white; /* Color del texto del botón */
+	border: none; /* Sin borde */
+	padding: 1rem 2rem; /* Espaciado interno */
+	font-size: 1.6rem; /* Tamaño del texto */
+	cursor: pointer; /* Cambio de cursor al pasar el ratón */
+  }
+  
+  .checkout-container .btn-secondary {
+	background-color: grey; /* Color de fondo del botón */
+	color: white; /* Color del texto del botón */
+	border: none; /* Sin borde */
+	padding: 1rem 2rem; /* Espaciado interno */
+	font-size: 1.6rem; /* Tamaño del texto */
+	cursor: pointer; /* Cambio de cursor al pasar el ratón */
+  }
+  
+  .checkout-container .btn-success:hover,
+  .checkout-container .btn-secondary:hover {
+	opacity: 0.8; /* Opacidad al pasar el ratón */
+  }
+  
+  

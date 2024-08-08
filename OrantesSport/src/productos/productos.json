@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "img": "/img1.jpg",
+    "Nombre": "Botines de fútbol MESSI X CRAZYFAST TERRENO",
+    "descripcion": "Los Botines de fútbol MESSI X CRAZYFAST TERRENO FIRME son ideales para jugadores que buscan velocidad, precisión y comodidad en el campo.",
+    "precio": 166.00
+  },
+  {
+    "id": 2,
+    "img": "/img2.jpeg",
+    "Nombre": "Botines de fútbol ADIDAS SPEED X AGILITY FIRME",
+    "descripcion": "Los Botines de fútbol ADIDAS SPEED X AGILITY ofrecen rendimiento excepcional y comodidad duradera para jugadores de todos los niveles.",
+    "precio": 99.00
+  },
+  {
+    "id": 3,
+    "img": "/img3.jpg",
+    "Nombre": "Botines de fútbol NIKE PHANTOM VENOM",
+    "descripcion": "Los Botines de fútbol NIKE PHANTOM VENOM PRECISION proporcionan precisión y control superiores en cada juego, con un ajuste cómodo y una tracción excepcional.",
+    "precio": 25.00
+  },
+  {
+    "id": 4,
+    "img": "/img4.jpg",
+    "Nombre": "Botines de fútbol PUMA FUTURE Z ULTRA LIGHT",
+    "descripcion": "Los Botines de fútbol PUMA FUTURE Z ULTRA LIGHT están diseñados para brindar velocidad y agilidad sin sacrificar el control y la estabilidad en el terreno de juego.",
+    "precio": 129.00
+  },
+  {
+    "id": 5,
+    "img": "/img5.jpg",
+    "Nombre": "Botines de fútbol UNDER ARMOUR SPOTLIGHT",
+    "descripcion": "Los Botines de fútbol UNDER ARMOUR SPOTLIGHT ACCELERATE son perfectos para los jugadores que buscan velocidad y agilidad en cada movimiento.",
+    "precio": 79.00
+  },
+  {
+    "id": 6,
+    "img": "/img6.jpeg",
+    "Nombre": "Botines de fútbol REEBOK INSTAPUMP FURY",
+    "descripcion": "Los Botines de fútbol REEBOK INSTAPUMP FURY combinan estilo y rendimiento para ofrecer una experiencia única en el campo de juego.",
+    "precio": 89.00
+  },
+  {
+    "id": 7,
+    "img": "/img7.jpg",
+    "Nombre": "Botines de fútbol NEW BALANCE FURON PRO",
+    "descripcion": "Los Botines de fútbol NEW BALANCE FURON PRO LIGHT ofrecen un equilibrio perfecto entre velocidad, potencia y control para un rendimiento óptimo en el campo.",
+    "precio": 149.00
+  },
+  {
+    "id": 8,
+    "img": "/img8.jpeg",
+    "Nombre": "Botines de fútbol ASICS GEL-QUANTUM 360",
+    "descripcion": "Los Botines de fútbol ASICS GEL-QUANTUM 360 brindan una combinación excepcional de amortiguación, soporte y respuesta para un rendimiento superior en el terreno de juego.",
+    "precio": 199.00
+  },
+  {
+    "id": 9,
+    "img": "/img9.jpeg",
+    "Nombre": "Botines de fútbol SALOMON XA PRO 3D GTX",
+    "descripcion": "Los Botines de fútbol SALOMON XA PRO 3D GTX están diseñados para ofrecer una tracción excepcional en terrenos difíciles, con una construcción resistente y duradera.",
+    "precio": 139.00
+  },
+  {
+    "id": 10,
+    "img": "/img10.jpeg",
+    "Nombre": "Botines de fútbol BROOKS ADRENALINE GTS 21",
+    "descripcion": "Los Botines de fútbol BROOKS ADRENALINE GTS 21 son ideales para corredores que buscan estabilidad, amortiguación y soporte en cada paso.",
+    "precio": 159.00
+  }
+]

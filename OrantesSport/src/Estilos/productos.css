@@ -1,0 +1,58 @@
+.productos-pagina {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.producto {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    width: 300px;
+    text-align: center;
+}
+
+
+.producto img {
+    height: 200px;
+    width: 150px;
+    border-radius: 0.5rem;
+
+    margin: 0 auto;
+
+}
+
+.producto h3 {
+    font-size: 2rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.producto p {
+    margin-bottom: 1rem;
+}
+
+.producto button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+.producto button:hover {
+    background-color: var(--dark-color);
+}
+
+/* Estilos para dispositivos pequeños */
+@media screen and (max-width: 768px) {
+    .producto {
+        width: calc(50% - 2rem);
+    }
+}
