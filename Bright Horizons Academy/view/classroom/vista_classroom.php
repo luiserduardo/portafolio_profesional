@@ -1,40 +1,4 @@
-<?php
-session_start();
-include "../../models/conexionbiblio.php";
 
-// Verificar si el usuario ha iniciado sesión, de lo contrario, redirigir a la página de inicio de sesión
-if (!isset($_SESSION["estudiante_id"])) {
-    header("Location: login.php");
-    exit();
-}
-
-// Función para obtener el nombre del usuario desde la base de datos
-function obtenerNombreUsuario($conn, $estudiante_id)
-{
-    // Consultar la base de datos para obtener el nombre del usuario
-    $sql = "SELECT nombre FROM estudiantes_login WHERE id = ?";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("i", $estudiante_id);
-    $stmt->execute();
-    $stmt->fetch();
-    $stmt->close();
-}
-
-// Conectar a la base de datos (debes configurar tus propios datos de conexión)
-$conn = new mysqli("localhost", "root", "", "users");
-
-// Verificar la conexión a la base de datos
-if ($conn->connect_error) {
-    die("Error de conexión: " . $conn->connect_error);
-}
-
-
-// Consulta SQL para obtener las clases
-$sqlClases = "SELECT * FROM clases";
-
-// Ejecutar la consulta de las clases
-$resultClases = $conn->query($sqlClases);
-?>
 
 <!DOCTYPE html>
 <html lang="en">
